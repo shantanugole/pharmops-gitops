@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "<YOUR_ALB_HOSTNAME>"
+    - host: "ac1701eefaf234627b26d859d6b7f80b-557849d4e17c2905.elb.us-east-1.amazonaws.com"
       http:
         paths:
           - path: /
